@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	Shout - Perl glue for libshout streaming source library
-Summary(pl):	Shout - perlowy interfejs do biblioteki strumieni libshout
+Summary(pl.UTF-8):   Shout - perlowy interfejs do biblioteki strumieni libshout
 Name:		perl-Shout
 Version:	2.1
 Release:	1
@@ -27,13 +27,13 @@ handles the socket connections, metadata communication, and data
 streaming for the calling application, and lets developers focus on
 feature sets instead of implementation details.
 
-%description -l pl
-Ten modu³ jest zorientowanym obiektowo interfejsem do libshout -
-biblioteki strumieni Ogg Vorbis i MP3 umo¿liwiaj±cej aplikacjom ³atwe
-komunikowanie siê i rozg³aszanie do serwera strumieni multimedialnych
-Icecast. Obs³uguje po³±czenia przez gniazda, komunikacjê z metadanymi,
-strumienie danych dla aplikacji wywo³uj±cej oraz pozwala programistom
-skupiæ siê na mo¿liwo¶ciach zamiast szczegó³ach implementacji.
+%description -l pl.UTF-8
+Ten moduÅ‚ jest zorientowanym obiektowo interfejsem do libshout -
+biblioteki strumieni Ogg Vorbis i MP3 umoÅ¼liwiajÄ…cej aplikacjom Å‚atwe
+komunikowanie siÄ™ i rozgÅ‚aszanie do serwera strumieni multimedialnych
+Icecast. ObsÅ‚uguje poÅ‚Ä…czenia przez gniazda, komunikacjÄ™ z metadanymi,
+strumienie danych dla aplikacji wywoÅ‚ujÄ…cej oraz pozwala programistom
+skupiÄ‡ siÄ™ na moÅ¼liwoÅ›ciach zamiast szczegÃ³Å‚ach implementacji.
 
 %prep
 %setup -q -n Shout-%{version}
