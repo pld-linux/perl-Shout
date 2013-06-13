@@ -44,7 +44,7 @@ skupić się na możliwościach zamiast szczegółach implementacji.
 
 %{__make} \
 	CC="%{__cc}" \
-	OPTIMIZE="%{rpmcflags}"
+	OPTIMIZE="%{rpmcflags} -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64"
 
 %{?with_tests:%{__make} test}
 
