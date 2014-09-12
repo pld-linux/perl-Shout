@@ -66,7 +66,6 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Shout.pm
 %dir %{perl_vendorarch}/auto/Shout
 %{perl_vendorarch}/auto/Shout/autosplit.ix
-%{perl_vendorarch}/auto/Shout/Shout.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Shout/Shout.so
 %{_examplesdir}/%{name}-%{version}
 %{_mandir}/man3/Shout.3*
