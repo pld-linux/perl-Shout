@@ -7,7 +7,7 @@ Summary:	Shout - Perl glue for libshout streaming source library
 Summary(pl.UTF-8):	Shout - perlowy interfejs do biblioteki strumieni libshout
 Name:		perl-Shout
 Version:	2.1
-Release:	13
+Release:	14
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://downloads.xiph.org/releases/libshout/Shout-%{version}.tar.gz
