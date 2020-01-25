@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 Summary:	Shout - Perl glue for libshout streaming source library
 Summary(pl.UTF-8):	Shout - perlowy interfejs do biblioteki strumieni libshout
 Name:		perl-Shout
